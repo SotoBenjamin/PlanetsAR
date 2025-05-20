@@ -1,0 +1,54 @@
+{
+    "name": "UIActions",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "8bf90715-2189-4fd3-bc91-047e9e3fae80",
+            "actions": [
+                {
+                    "name": "Point",
+                    "type": "Value",
+                    "id": "83a0fc04-7b4a-4de5-a3c5-4ee791780cb2",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "b87dd85f-a3a7-4aa4-88fe-b2c160f8d072",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c6383470-019a-4993-881a-45225293bfba",
+                    "path": "<Pointer>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Point",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "37f70ba7-bed3-4a4c-8a51-9a1607014254",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
